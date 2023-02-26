@@ -23,6 +23,14 @@ return require('packer').startup(function(use)
 
   use { 'mbbill/undotree' }
 
+  use({
+      "kylechui/nvim-surround",
+      tag = "*",
+      config = function()
+          require("nvim-surround").setup({ })
+      end
+  })
+
   use {
       'VonHeikemen/lsp-zero.nvim',
       branch = 'v1.x',
