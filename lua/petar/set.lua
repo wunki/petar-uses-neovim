@@ -1,5 +1,3 @@
-vim.g.oh_lucy_italic_functions = true
-
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
