@@ -1,5 +1,5 @@
-require("petar.remap")
-require("petar.set")
+require "petar.remap"
+require "petar.set"
 
 -- have a cleaner netrw
 vim.g.netrw_browse_split = 0
