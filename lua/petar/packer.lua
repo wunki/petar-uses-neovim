@@ -1,6 +1,12 @@
 vim.cmd [[packadd packer.nvim]]
 
-return require("packer").startup(function(use)
+local packer = require('packer')
+packer.init({
+    compile_path = vim.fn.stdpath('config') .. '/lua/plugins/' .. 'packer_compiled.lua',
+})
+
+local use = require('packer').use
+
   use "wbthomason/packer.nvim"
 
   use {
@@ -55,4 +61,3 @@ return require("packer").startup(function(use)
       { "rafamadriz/friendly-snippets" },
     },
   }
-end)
