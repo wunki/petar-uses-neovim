@@ -7,6 +7,7 @@ lsp.ensure_installed {
   "zls",
   "rust_analyzer",
   "elixirls",
+  "jdtls",
 }
 
 -- Fix Undefined global 'vim'
