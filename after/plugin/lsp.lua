@@ -40,10 +40,10 @@ lsp.setup_nvim_cmp {
 lsp.set_preferences {
   suggest_lsp_servers = false,
   sign_icons = {
-    error = "·",
-    warn = "·",
-    hint = "·",
-    info = "·",
+    error = "•",
+    warn = "•",
+    hint = "•",
+    info = "•",
   },
 }
 
